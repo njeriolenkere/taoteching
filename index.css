@@ -45,14 +45,6 @@ h2{
 	line-height: 1.5;
 }
 
-.chapters{
-
--webkit-animation: fa-spin 2s infinite;
--moz-animation: fa-spin 2s infinite;
-linear; animation: fa-spin 2s infinite;
-
-}
-
 
 .chapters:after {
     /*content: '\221E \0020 \221E \0020 \221E' ;--infinite & space  \2665' ;--love*/
