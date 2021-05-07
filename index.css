@@ -1,5 +1,5 @@
 body{
-	font-family:"arial", "verdana", "georgia", "courier";
+font-family:"arial", "verdana", "georgia", "courier", lucida-sans-unicode";
     font-size: 100%;
     background-color: #000;
     overflow: scroll;
@@ -32,6 +32,7 @@ p{
 h2{
 	font-size: 5.5vw;
 	font-family: "georgia", "arial", "verdana";
+
 }
 .iPara{
 	font-style:  italic;
