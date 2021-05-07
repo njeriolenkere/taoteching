@@ -87,7 +87,6 @@ h2{
 	padding : 11px; 
 	background: #191919;
  	text-decoration: none; 
-	color: #fff;
 	box-shadow: 2px 2px 5px #fff;
 } /*.dropDown { position: sticky; top: 0px;}*/
 
@@ -95,7 +94,7 @@ h2{
 
 .dropDown label { 
 	display: inline-block;
-	font-size: 5vw;
+	font-size: 4.5vw;
         color: #fff;
 } 
 .dropDownContent { 
