@@ -44,19 +44,21 @@ h2{
 	margin-bottom: 100px;
 	line-height: 1.5;
 }
-
+ 
 
 .chapters:after {
     /*content: '\221E \0020 \221E \0020 \221E' ;--infinite & space  \2665' ;--love*/
     color: #90ee90; 
     font-size: 5vw;
-    font-family: "Font Awesome 5 Free"; 
+    font-family: "Font Awesome \ 5 Free"; 
     content: "\f6ad";
+    font-weight: 700px;
 }
 
+
 .btn{
-	background-color: #90ee90;
-	padding: 5px; 
+    background-color: #90ee90;
+    padding: 5px; 
     margin: 15px;
     font-size: 3vw;
     font-family: "georgia", "arial", "verdana";
