@@ -45,7 +45,7 @@ h2{
 	line-height: 1.5;
 }
  
-.chapters:before {
+.chapters:after {
     /*content: '\221E \0020 \221E \0020 \221E' ;--infinite & space  \2665' ;--love*/
     color: #90ee90; 
     font-size: 5vw;
