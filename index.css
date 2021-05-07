@@ -45,12 +45,13 @@ h2{
 	line-height: 1.5;
 }
  
-.chapters:after {
+.chapters:before {
     /*content: '\221E \0020 \221E \0020 \221E' ;--infinite & space  \2665' ;--love*/
     color: #90ee90; 
     font-size: 5vw;
-    font-family:"Font Awesome 5 Free"!important; 
-    content: "\f6ad";
+    content: '\f502';
+    font-family: 'Font Awesome 5 Free';
+    font-family: 'FontAwesome;'
     font-weight: 700px;
 }
 
