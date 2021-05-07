@@ -45,12 +45,11 @@ h2{
 	line-height: 1.5;
 }
  
-
 .chapters:after {
     /*content: '\221E \0020 \221E \0020 \221E' ;--infinite & space  \2665' ;--love*/
     color: #90ee90; 
     font-size: 5vw;
-    font-family: "Font Awesome \ 5 Free"; 
+    font-family: "FontAwesome"; 
     content: "\f6ad";
     font-weight: 700px;
 }
@@ -98,6 +97,7 @@ h2{
 	color: #fff;
 	box-shadow: 2px 2px 5px #fff;
 } /*.dropDown { position: sticky; top: 0px;}*/
+
 
 
 .dropDown label { 
