@@ -1,0 +1,122 @@
+body{
+	font-family:"arial", "verdana", "georgia", "courier";
+    font-size: 100%;
+    background-color: #000;
+    overflow: scroll;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+.container{
+	margin: 10px;
+	height:100%;
+	padding: 10px;
+}
+.h1{
+
+    color: #90ee90; 
+    margin:0px 0px 60px 0px;
+    text-align: center;
+    font-size: 7vw;
+    font-family: "georgia", "arial", "verdana";
+}/*font-size: 2vw; ---font responsive
+view width...Metaport-view point*/
+p, h2{
+	margin: 0px;
+}
+
+p{
+    font-size: 4vw;
+}
+
+h2{
+	font-size: 5.5vw;
+	font-family: "georgia", "arial", "verdana";
+}
+.iPara{
+	font-style:  italic;
+	margin: 0px;
+	font-size: 4vw;
+}
+
+.chapters, .headline{
+	margin-bottom: 100px;
+	line-height: 1.5;
+}
+
+.chapters:after {
+    /*content: '\221E \0020 \221E \0020 \221E' ;--infinite & space  \2665' ;--love*/
+    content: "\262F \0020 \262F \0020 \262F" ; /* YingYang utf symbols*/
+    color: #90ee90; 
+    font-size: 5vw;
+}
+
+.btn{
+	background-color: #90ee90;
+	padding: 5px; 
+    margin: 15px;
+    font-size: 3vw;
+    font-family: "georgia", "arial", "verdana";
+    position: fixed;
+    right:  0;
+    bottom: 0;
+    border: 2px solid #90ee90;
+    border-radius: 5px;
+   /*  mix-blend-mode: multiply; or  
+   mix-blend-mode: multiply; see-through text*/
+}
+
+.btn:hover{
+	box-shadow: 2px 2px 2px 5px #fff;
+}
+ 
+ #ham { 
+ 	display: none; 
+ } 
+
+ .dropDownContent a { 
+ 	width: 100%; 
+ 	text-decoration: none; 
+	color: #fff;
+	padding: 11px;
+	font-size: 4vw;
+ 	}  
+
+.dropDownContent a:hover { 
+	background: #90ee90;
+	color: #000;
+}
+ .dropDown { 
+	padding : 11px; 
+	background: #191919;
+ 	text-decoration: none; 
+	color: #fff;
+	box-shadow: 2px 2px 5px #fff;
+} /*.dropDown { position: sticky; top: 0px;}*/
+
+
+.dropDown label { 
+	display: inline-block;
+	font-size: 4vw; 
+} 
+.dropDownContent { 
+	flex-wrap: wrap; 
+	display: none;
+} 
+ 
+.dropDown input:checked ~ .dropDownContent { 
+	display: flex;
+ }
+
+/*  
+ devices with screen 300px and down
+ @media only screen and (max-width: 1080px;)
+ {
+
+ devices with screen 1080px and up
+ @media only screen and (min-width: 1080px;)
+ {
+ 
+ 
+ 
+Resources; W3schools, Stackflow, Codeboxx, Utf8icons*/
